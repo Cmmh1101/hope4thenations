@@ -60,7 +60,7 @@
       rgba(16, 164, 194, 0.19091386554621848) 0%,
       rgba(8, 18, 199, 0.4598214285714286) 100%
     ),
-    url(/img/hopeforthenations.jpg) center top no-repeat;
+    url(/img/hero2.jpg) center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -117,7 +117,7 @@
   line-height: 1;
   width: auto;
   height: auto;
-  color: var(--dark-blue-transparent);
+  color: var(--light-gray);
 }
 
 #hero .hero-btn {
@@ -240,6 +240,14 @@
 /* ====== END OF ABOUT US ====== */
 
 /* ====== Stories ====== */
+
+.stories {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
 .story-box {
   padding: 15px;
   background: rgb(81, 207, 238);
@@ -298,6 +306,9 @@
 /* ====== End of Stories ====== */
 
 /* ====== Program Section ====== */
+.program {
+  margin: 100px auto;
+}
 
 .project-container {
   background: var(--dark-blue);
@@ -362,6 +373,11 @@
   box-shadow: 0 0 25px var(--light-blue);
   transform: scale(1.1);
 }
+@media (max-width: 992px) {
+  .program {
+    margin: 50px auto;
+  }
+}
 /* ====== End Of Program Section ====== */
 
 /* ====== Team Section ====== */
@@ -369,6 +385,11 @@
 .team {
   background: #fff;
   padding: 60px 0 30px 0;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0;
 }
 .team .team-1 {
   text-align: center;
@@ -445,6 +466,9 @@
   margin: 0 2px;
 }
 @media (max-width: 992px) {
+  .team {
+    margin: 100px 0;
+  }
   .team .team-1 {
     margin-bottom: 100px;
   }
@@ -454,6 +478,9 @@
 
 /* ====== Finished Project Section ====== */
 
+.finished-projects {
+  margin: 100px 0;
+}
 .project-item {
   display: block;
   position: relative;
@@ -515,6 +542,9 @@
 /* ====== End Of Finished Project Section ====== */
 
 /* ====== Donate Section ====== */
+.donation-sec {
+  margin: 200px 0 300px 0;
+}
 .donation-form .input-field .input-group {
   width: 100%;
   border: 1px solid var(--dark-blue);
