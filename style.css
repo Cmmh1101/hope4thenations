@@ -310,6 +310,10 @@
   margin: 100px auto;
 }
 
+.program-container {
+  margin-bottom: 30px;
+}
+
 .project-container {
   background: var(--dark-blue);
   position: relative;
@@ -389,7 +393,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 200px 0;
+  margin: 100px 0 200px 0;
 }
 .team .team-1 {
   text-align: center;
@@ -672,12 +676,12 @@
   margin-bottom: 0;
 }
 .footer .footer-top .social-links a {
-  font-size: 0.9rem;
+  font-size: 1rem;
   display: inline-block;
   background: var(--light-blue);
   color: var(--dark-blue);
   line-height: 1;
-  padding: 8px 0;
+  padding: 8px 8px;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
